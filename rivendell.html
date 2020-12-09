@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Production Order</title>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap-4.2.1.bundle.min.js"></script>
+    <script src="js/moment-2.23.0.js"></script>
+    <script src="js/download.js"></script>
+    <script src="js/rivendell.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-4.2.1.min.css">
+    <link rel="stylesheet" type="text/css" href="css/rivendell.css">
+  </head>
+  <body>
+    <nav class="no-print navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+	  <li class="nav-item">
+	    <a id="export" class="nav-link" href="#">Export Rivendell Scripts</a>
+	  </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="main" class="container">
+      <div id="main" class="container">
+	<h3><span class="log"></span></h3>
+	<p><span class="advertiser"></span>Network Production Order for week of <span id="week"></span>.  Dates should be disabled in Rivendell, as these spots will be used over the course of the year.</p>
+	<table>
+	  <tbody id="tapes">
+	    <tr>
+	      <th>Cart</th>
+	      <th>Title</th>
+	      <th>Artist</th>
+	      <th>ISCI</th>
+	    </tr>
+	  </tbody>
+	</table>
+      </div>
+    </div>
+  </body>
+</html>

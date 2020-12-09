@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Rivendell Production Script Generator",
+  "description": "Generate a Rivendell production script from VT cart list",
+  "version": "2.0",
+  "author": "Jeff Hirschberg jeff@deepmanlyvoice.com",
+//  "content_security_policy": "script-src 'self' 'sha256-MYYxBo6K/joZeqxj7thxYPq5m8nni7C/v023XngtpAU='; object-src 'self' 'sha256-MYYxBo6K/joZeqxj7thxYPq5m8nni7C/v023XngtpAU='",
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "browser_action": {
+    "default_title": "Rivendell Production Script Generator"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "<all_urls>"
+  ]
+}
