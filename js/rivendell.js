@@ -1,6 +1,7 @@
 let adLarge = '';
 let compass = '';
 let sun = '';
+let westwood = '';
 let isciMap = new Map();
 let cartMap = new Map();
 
@@ -46,7 +47,8 @@ $(function () {
     
     // download(adLarge, 'AdLarge' + weekName + '.sh', 'text/plain');
     download(sun, 'Sun' + weekName + '.sh', 'text/plain');
-    download(compass, 'Compass' + weekName + '.sh', 'text/plain');    
+    // download(compass, 'Compass' + weekName + '.sh', 'text/plain');
+    download(westwood, 'Westwood' + weekName + '.sh', 'text/plain');
   });
   
   chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
@@ -123,8 +125,12 @@ $(function () {
 	  compass += buildRivendell(cart, advertiser, name, isci);
 	}
 
-	if (advertiser === 'Sun Broadcast Group - NC') {
+	if (advertiser === 'Sun Broadcasting - NC') {
 	  sun += buildRivendell(cart, advertiser, name, isci);
+	}
+
+	if (advertiser === 'Westwood One - NC') {
+	  westwood += buildRivendell(cart, advertiser, name, isci);
 	}
 	
 	tapes += '<tr><td>' + cart + '</td><td>' + advertiser + '</td><td>' + name + '</td><td>' + isci + '</td></tr>';
