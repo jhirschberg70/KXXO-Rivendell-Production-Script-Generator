@@ -45,7 +45,7 @@ $(function () {
   $('#export').click(function() {
     let weekName = week.format('YYYY-MM-DD');
     
-    // download(adLarge, 'AdLarge' + weekName + '.sh', 'text/plain');
+    download(adLarge, 'AdLarge' + weekName + '.sh', 'text/plain');
     download(sun, 'Sun' + weekName + '.sh', 'text/plain');
     // download(compass, 'Compass' + weekName + '.sh', 'text/plain');
     download(westwood, 'Westwood' + weekName + '.sh', 'text/plain');
@@ -129,7 +129,7 @@ $(function () {
 	  sun += buildRivendell(cart, advertiser, name, isci);
 	}
 
-	if (advertiser === 'Westwood One - NC') {
+	if (advertiser === 'Westwood One - NC - Nectar') {
 	  westwood += buildRivendell(cart, advertiser, name, isci);
 	}
 	
