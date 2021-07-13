@@ -116,7 +116,7 @@ $(function () {
 	else {
 	  cartMap.set(cart, '');
 	}
-	  
+	
 	if (advertiser === 'AdLarge - NC') {
 	  adLarge += buildRivendell(cart, advertiser, name, isci);
 	}
