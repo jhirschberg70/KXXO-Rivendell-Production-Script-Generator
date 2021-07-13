@@ -38,8 +38,8 @@ function download(strData, strFileName, strMimeType) {
     return true;
   }; /* end if('download' in a) */
 }
-$(function () {
 
+$(function () {
   let week = null;
   
   $('#export').click(function() {
