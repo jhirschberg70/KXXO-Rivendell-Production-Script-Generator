@@ -45,9 +45,9 @@ $(function () {
   $('#export').click(function() {
     let weekName = week.format('YYYY-MM-DD');
     
-    download(adLarge, 'AdLarge' + weekName + '.sh', 'text/plain');
-    download(sun, 'Sun' + weekName + '.sh', 'text/plain');
-    // download(compass, 'Compass' + weekName + '.sh', 'text/plain');
+    // download(adLarge, 'AdLarge' + weekName + '.sh', 'text/plain');
+    // download(sun, 'Sun' + weekName + '.sh', 'text/plain');
+    download(compass, 'Compass' + weekName + '.sh', 'text/plain');
     download(westwood, 'Westwood' + weekName + '.sh', 'text/plain');
   });
   
