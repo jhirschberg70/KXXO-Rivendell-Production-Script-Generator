@@ -1,5 +1,6 @@
 let adLarge = '';
 let compass = '';
+let premiere = '';
 let sun = '';
 let westwood = '';
 let isciMap = new Map();
@@ -47,9 +48,10 @@ $(function () {
     
     // download(adLarge, 'AdLarge' + weekName + '.sh', 'text/plain');
     // download(sun, 'Sun' + weekName + '.sh', 'text/plain');
-    download(compass, 'Compass' + weekName + '.sh', 'text/plain');
+    // download(compass, 'Compass' + weekName + '.sh', 'text/plain');
+    download(premiere, 'Premiere' + weekName + '.sh', 'text/plain');
     download(westwood, 'Westwood' + weekName + '.sh', 'text/plain');
-  });
+    });
   
   chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
     // Send response to close the loop
@@ -123,6 +125,10 @@ $(function () {
 
 	if (advertiser === 'Compass - NC') {
 	  compass += buildRivendell(cart, advertiser, name, isci);
+	}
+
+	if (advertiser === 'Premiere - NC') {
+	  premiere += buildRivendell(cart, advertiser, name, isci);
 	}
 
 	if (advertiser === 'Sun Broadcasting - NC') {
