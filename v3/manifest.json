@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Text Sender",
+  "version": "1.0",
+  "description": "Selects all text and sends it to a new tab.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {},
+  "background": {
+    "service_worker": "serviceworker.js"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
