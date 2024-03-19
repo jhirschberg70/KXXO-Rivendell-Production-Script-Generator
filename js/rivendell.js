@@ -8,55 +8,34 @@ let cartMap = new Map();
 
 function buildRivendell(cart, advertiser, name, isci) {
   return 'rdimport --delete-cuts --clear-datetimes --clear-daypart-times ' +
-	 '--to-cart=' + cart + ' ' +
-	 '--set-string-title=\"' + advertiser + '\" ' +
-	 '--set-string-client=\"' + advertiser + '\" ' +
-	 '--set-string-artist=\"' + name + '\" ' +
-	 'SPOTS *' + isci + '* &\nwait\n';
+    '--to-cart=' + cart + ' ' +
+    '--set-string-title=\"' + advertiser + '\" ' +
+    '--set-string-client=\"' + advertiser + '\" ' +
+    '--set-string-artist=\"' + name + '\" ' +
+    'SPOTS *' + isci + '* &\nwait\n';
 }
 
-function download(strData, strFileName, strMimeType) {
-  var D = document,
-      A = arguments,
-      a = D.createElement("a"),
-      d = A[0],
-      n = A[1],
-      t = A[2] || "text/plain";
-
-  //build download link:
-  a.href = "data:" + strMimeType + "charset=utf-8," + escape(strData);
-
-  if ('download' in a) { //FF20, CH19
-    a.setAttribute("download", n);
-    a.innerHTML = "downloading...";
-    D.body.appendChild(a);
-    setTimeout(function() {
-      var e = D.createEvent("MouseEvents");
-      e.initMouseEvent("click", true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
-      a.dispatchEvent(e);
-      D.body.removeChild(a);
-    }, 66);
-    return true;
-  }; /* end if('download' in a) */
+function download(data, fileName) {
+  let a = document.createElement("a");
+  a.download = fileName;
+  a.href = "data:plain/txt charset=utf-8," + data;
+  a.click();
 }
 
 $(function () {
   let week = null;
-  
-  $('#export').click(function() {
+
+  $('#export').click(function () {
     let weekName = week.format('YYYY-MM-DD');
-    
+
     // download(adLarge, 'AdLarge' + weekName + '.sh', 'text/plain');
     // download(sun, 'Sun' + weekName + '.sh', 'text/plain');
     // download(compass, 'Compass' + weekName + '.sh', 'text/plain');
-    download(premiere, 'Premiere' + weekName + '.sh', 'text/plain');
-    download(westwood, 'Westwood' + weekName + '.sh', 'text/plain');
-    });
-  
-  chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
-    // Send response to close the loop
-    sendResponse('Got data');
+    download(premiere, 'Premiere' + weekName + '.sh');
+    download(westwood, 'Westwood' + weekName + '.sh');
+  });
 
+  chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
     let records = msg.match(/\<Value\>.+\<\/Value\>/g);
 
     records.forEach(function (field, index) {
@@ -67,7 +46,7 @@ $(function () {
     let iscis = [];
     let tapes = '';
     let alertMsg = '';
-    
+
     while (records.length) {
       let cart = '';
       let advertiser = '';
@@ -94,74 +73,71 @@ $(function () {
       // can skip it.
       if (name.startsWith('+')) {
 
-	// Strip leading +\s from name
-	name = name.replace(/\+\s/, '');
+        // Strip leading +\s from name
+        name = name.replace(/\+\s/, '');
 
-	// If this is the first date being processed or the current
-	// record's date is earlier than all previous dates, set
-	// week = date;
-	if ((week === null) || (date.isBefore(week))) {
-	  week = date;
-	}
+        // If this is the first date being processed or the current
+        // record's date is earlier than all previous dates, set
+        // week = date;
+        if ((week === null) || (date.isBefore(week))) {
+          week = date;
+        }
 
-	// Check if ISCI codes/cart numbers are used multiple times
-	if (isciMap.has(isci)) {
-	  alertMsg += 'Duplicate ISCI: ' + isci + '\n';
-	}
-	else {
-	  isciMap.set(isci, '');
-	}
+        // Check if ISCI codes/cart numbers are used multiple times
+        if (isciMap.has(isci)) {
+          alertMsg += 'Duplicate ISCI: ' + isci + '\n';
+        }
+        else {
+          isciMap.set(isci, '');
+        }
 
-	if (cartMap.has(cart)) {
-	  alertMsg += 'Duplicate Cart: ' + cart + '\n';
-	}
-	else {
-	  cartMap.set(cart, '');
-	}
-	
-	if (advertiser === 'AdLarge - NC') {
-	  adLarge += buildRivendell(cart, advertiser, name, isci);
-	}
+        if (cartMap.has(cart)) {
+          alertMsg += 'Duplicate Cart: ' + cart + '\n';
+        }
+        else {
+          cartMap.set(cart, '');
+        }
 
-	if (advertiser === 'Compass - NC') {
-	  compass += buildRivendell(cart, advertiser, name, isci);
-	}
+        if (advertiser === 'AdLarge - NC') {
+          adLarge += buildRivendell(cart, advertiser, name, isci);
+        }
 
-	if (advertiser === 'Premiere - NC') {
-	  premiere += buildRivendell(cart, advertiser, name, isci);
-	}
+        if (advertiser === 'Compass - NC') {
+          compass += buildRivendell(cart, advertiser, name, isci);
+        }
 
-	if (advertiser === 'Sun Broadcasting - NC') {
-	  sun += buildRivendell(cart, advertiser, name, isci);
-	}
+        if (advertiser === 'Premiere - NC') {
+          premiere += buildRivendell(cart, advertiser, name, isci);
+        }
 
-	if (advertiser === 'Westwood One - NC - Nectar') {
-	  westwood += buildRivendell(cart, advertiser, name, isci);
-	}
-	
-	tapes += '<tr><td>' + cart + '</td><td>' + advertiser + '</td><td>' + name + '</td><td>' + isci + '</td></tr>';
+        if (advertiser === 'Sun Broadcasting - NC') {
+          sun += buildRivendell(cart, advertiser, name, isci);
+        }
+
+        if (advertiser === 'Westwood One - NC - Nectar') {
+          westwood += buildRivendell(cart, advertiser, name, isci);
+        }
+
+        tapes += '<tr><td>' + cart + '</td><td>' + advertiser + '</td><td>' + name + '</td><td>' + isci + '</td></tr>';
       }
-      
+
       if (alertMsg) {
-	alert(alertMsg);
-	alertMsg = '';  // Clear the message so it isn't duplicated
+        alert(alertMsg);
+        alertMsg = '';  // Clear the message so it isn't duplicated
       }
     }
-
-    console.log(week);
-    console.log(week.day());
 
     // week:  The date of the Monday of the week in which the new spots
     // begin
     week = moment(week.subtract(((week.day() + 6) % 7), 'days'));
-    
+
     $('#week').append(week.format('MM/DD/YYYY'));
     $('#tapes').append(tapes);
 
     iscis.sort();
 
     let isciList = '';
-    
+
     for (let index = 0; index < iscis.length; index++) {
       isciList += iscis[index] + '\n';
     }
