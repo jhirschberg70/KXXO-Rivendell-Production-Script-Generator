@@ -1,16 +1,8 @@
-let adLarge = '';
-let compass = '';
-let premiere = '';
-let sun = '';
-let westwood = '';
-let isciMap = new Map();
-let cartMap = new Map();
-
-function buildRivendell(cart, advertiser, name, isci) {
+function buildRivendellScript(cart, network, name, isci) {
   return 'rdimport --delete-cuts --clear-datetimes --clear-daypart-times ' +
     '--to-cart=' + cart + ' ' +
-    '--set-string-title=\"' + advertiser + '\" ' +
-    '--set-string-client=\"' + advertiser + '\" ' +
+    '--set-string-title=\"' + network + '\" ' +
+    '--set-string-client=\"' + network + '\" ' +
     '--set-string-artist=\"' + name + '\" ' +
     'SPOTS *' + isci + '* &\nwait\n';
 }
@@ -23,50 +15,42 @@ function download(data, fileName) {
 }
 
 $(function () {
+  const excludes = ['MyComputerCaree'];
+  const networks = { 'AdLarge - NC': '', 'Compass - NC': '', 'Premiere - NC': '', 'Sun Broadcasting - NC': '', 'Westwood One - NC - Nectar': '' };
+
   let week = null;
 
   $('#export').click(function () {
     let weekName = week.format('YYYY-MM-DD');
 
-    // download(adLarge, 'AdLarge' + weekName + '.sh', 'text/plain');
-    // download(sun, 'Sun' + weekName + '.sh', 'text/plain');
-    // download(compass, 'Compass' + weekName + '.sh', 'text/plain');
-    download(premiere, 'Premiere' + weekName + '.sh');
-    download(westwood, 'Westwood' + weekName + '.sh');
+    for (const [network, script] of Object.entries(networks)) {
+      if (script) {
+        download(script, network + ' ' + weekName + '.sh', 'text/plain')
+      }
+    }
   });
 
   chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
+    let alertMsg = '';
+    let carts = new Set();
+    let iscis = new Set();
     let records = msg.match(/\<Value\>.+\<\/Value\>/g);
+    let spots = '';
 
     records.forEach(function (field, index) {
       field = field.replace(/\<Value\>/, '').replace(/\<\/Value\>/, '');
       records[index] = field;
     });
 
-    let iscis = [];
-    let tapes = '';
-    let alertMsg = '';
-
     while (records.length) {
-      let cart = '';
-      let advertiser = '';
-      let name = '';
-      let expiration = '';
-      let length = '';
-      let isci = '';
-      let station = '';
-
-      cart = records.shift();
-      advertiser = records.shift();
-      name = records.shift();
-      expiration = records.shift();
-      length = records.shift();
-      isci = records.shift();
-      date = moment((records.shift()), 'MM/DD/YYYY');
-      station = records.shift();
-
-
-      iscis.push(isci);
+      const cart = records.shift();
+      const network = records.shift();
+      let   name = records.shift();
+      const expiration = records.shift();
+      const length = records.shift();
+      const isci = records.shift();
+      const date = moment((records.shift()), 'MM/DD/YYYY');
+      const station = records.shift();
 
       // A new spot has a +\s at the beginning of the name field
       // If the spot is new, we want to produce it.  Otherwise, we
@@ -84,41 +68,25 @@ $(function () {
         }
 
         // Check if ISCI codes/cart numbers are used multiple times
-        if (isciMap.has(isci)) {
+        if (iscis.has(isci)) {
           alertMsg += 'Duplicate ISCI: ' + isci + '\n';
         }
         else {
-          isciMap.set(isci, '');
+          iscis.add(isci);
         }
 
-        if (cartMap.has(cart)) {
+        if (carts.has(cart)) {
           alertMsg += 'Duplicate Cart: ' + cart + '\n';
         }
         else {
-          cartMap.set(cart, '');
+          carts.add(cart);
         }
 
-        if (advertiser === 'AdLarge - NC') {
-          adLarge += buildRivendell(cart, advertiser, name, isci);
+        // Exclude spot if the name contains any of the strings found in excludes[]
+        if (!(excludes.some((exclude) => { return name.includes(exclude); }))) {
+          networks[network] += buildRivendellScript(cart, network, name, isci);
+          spots += '<tr><td>' + cart + '</td><td>' + network + '</td><td>' + name + '</td><td>' + isci + '</td></tr>';
         }
-
-        if (advertiser === 'Compass - NC') {
-          compass += buildRivendell(cart, advertiser, name, isci);
-        }
-
-        if (advertiser === 'Premiere - NC') {
-          premiere += buildRivendell(cart, advertiser, name, isci);
-        }
-
-        if (advertiser === 'Sun Broadcasting - NC') {
-          sun += buildRivendell(cart, advertiser, name, isci);
-        }
-
-        if (advertiser === 'Westwood One - NC - Nectar') {
-          westwood += buildRivendell(cart, advertiser, name, isci);
-        }
-
-        tapes += '<tr><td>' + cart + '</td><td>' + advertiser + '</td><td>' + name + '</td><td>' + isci + '</td></tr>';
       }
 
       if (alertMsg) {
@@ -132,14 +100,6 @@ $(function () {
     week = moment(week.subtract(((week.day() + 6) % 7), 'days'));
 
     $('#week').append(week.format('MM/DD/YYYY'));
-    $('#tapes').append(tapes);
-
-    iscis.sort();
-
-    let isciList = '';
-
-    for (let index = 0; index < iscis.length; index++) {
-      isciList += iscis[index] + '\n';
-    }
+    $('#spots').append(spots);
   });
 });
