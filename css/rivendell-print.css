@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: .7em;
+  line-height: 1.5;
+}
+
+table {
+  width: 100%;
+  font-family: "Courier New";
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#container {
+  display:flex;
+  justify-content: center;
+}
+
+#subcontainer {
+  width:90dvw;
+
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+#download-bar, #download-bar > * {
+  display:none;
+}

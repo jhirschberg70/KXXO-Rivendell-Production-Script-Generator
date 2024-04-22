@@ -13,7 +13,7 @@ function download(data, fileName) {
   a.href = "data:plain/txt charset=utf-8," + data;
   a.click();
 }
-chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
+chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   const excludes = ['MyComputerCaree'];
   const networks = { 'AdLarge - NC': '', 'Compass - NC': '', 'Premiere - NC': '', 'Sun Broadcasting - NC': '', 'Westwood One - NC - Nectar': '' };
 
@@ -24,7 +24,7 @@ chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
   let spots = '';
   let startDate = null;
 
-  records.forEach(function (field, index) {
+  records.forEach((field, index) => {
     field = field.replace(/\<Value\>/, '').replace(/\<\/Value\>/, '');
     records[index] = field;
   });
@@ -32,11 +32,11 @@ chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
   while (records.length) {
     const cart = records.shift();
     const network = records.shift();
-    let   name = records.shift();
+    let name = records.shift();
     const expiration = records.shift();
     const length = records.shift();
     const isci = records.shift();
-    const date = moment((records.shift()), 'MM/DD/YYYY');
+    const date = new Date(records.shift());
     const station = records.shift();
 
     // A new spot has a +\s at the beginning of the name field
@@ -47,12 +47,9 @@ chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
       // Strip leading +\s from name
       name = name.replace(/\+\s/, '');
 
-      // If this is the first date being processed or the current
-      // record's date is earlier than all previous dates, set
-      // startDate = date;
-      if ((startDate === null) || (date.isBefore(startDate))) {
-        startDate = date;
-      }
+      // If the current record's date is earlier than all
+      // previous dates, set startDate = date;
+      startDate = ((date < startDate) || startDate === null) ? date : startDate;
 
       // Check if ISCI codes/cart numbers are used multiple times
       if (iscis.has(isci)) {
@@ -82,17 +79,21 @@ chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
     }
   }
 
-  // week:  The date of the Monday of the week in which the new spots
-  // begin
-  const week = moment(startDate.subtract(((startDate.day() + 6) % 7), 'days'));
+  // set startDate to the date of the Monday of the week in which
+  // the new spots begin
+  startDate.setDate(startDate.getDate() - ((startDate.getDay()) ? (startDate.getDay() - 1) : 6));
 
-  $('#week').append(week.format('MM/DD/YYYY'));
-  $('#spots').append(spots);
+  startDateString = startDate.toLocaleDateString("en-US", { year: "numeric", month: "2-digit", day: "2-digit" });
 
-  $('#export').click(function () {
+  const [month, day, year] = startDateString.split("/");
+
+  document.getElementById('week').append(`${month}/${day}/${year}`);
+  document.getElementById('spots').innerHTML += spots;
+
+  document.getElementById('download-link').addEventListener('click', () => {
     for (const [network, script] of Object.entries(networks)) {
       if (script) {
-        download(script, network + ' ' + week.format('YYYY-MM-DD') + '.sh', 'text/plain')
+        download(script, `${network} ${year}-${month}-${day}.sh`, 'text/plain')
       }
     }
   });

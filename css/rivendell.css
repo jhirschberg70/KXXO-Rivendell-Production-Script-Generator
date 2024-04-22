@@ -1,24 +1,61 @@
-@media print {
-  .no-print {
-    display:none !important;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-size:1em;
+  font-size: 1em;
+  line-height: 1.5;
 }
 
 table {
-  width:100%;
-  font-family:"Courier New";
+  width: 100%;
+  font-family: "Courier New";
 }
 
-table, th, tr, td {
-  border:1px solid black;
-  border-collapse:collapse;
-  text-align:center;
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
 }
 
-h3 {
-  text-align:center;
+#container {
+  display:flex;
+  justify-content: center;
+}
+
+#subcontainer {
+  width:75dvw;
+
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+#download-bar {
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  height: 56px;
+  margin-bottom: 24px;
+  width: 100dvw;
+}
+
+#download-item {
+  padding-left: 15px;
+  width:max-content;
+
+  a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
 }
