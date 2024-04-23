@@ -87,7 +87,7 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
 
   const [month, day, year] = startDateString.split("/");
 
-  document.getElementById('week').append(`${month}/${day}/${year}`);
+  document.getElementById('week').append(startDateString);
   document.getElementById('spots').innerHTML += spots;
 
   document.getElementById('download-link').addEventListener('click', () => {
