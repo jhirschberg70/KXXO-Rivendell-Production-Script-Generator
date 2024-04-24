@@ -1,10 +1,16 @@
 function buildRivendellScript(cart, network, name, isci) {
-  return 'rdimport --delete-cuts --clear-datetimes --clear-daypart-times ' +
-    '--to-cart=' + cart + ' ' +
-    '--set-string-title=\"' + network + '\" ' +
-    '--set-string-client=\"' + network + '\" ' +
-    '--set-string-artist=\"' + name + '\" ' +
-    'SPOTS *' + isci + '* &\nwait\n';
+  return (
+    `rdimport ` +
+    `--delete-cuts ` +
+    `--clear-datetimes ` +
+    `--clear-daypart-times ` +
+    `--to-cart=${cart} ` +
+    `--set-string-title="${network}" `+
+    `--set-string-client="${network}" ` +
+    `--set-string-artist="${name}" ` +
+    `SPOTS *${isci}* &\n` +
+    `wait\n`
+  );
 }
 
 function download(data, fileName) {
@@ -13,81 +19,56 @@ function download(data, fileName) {
   a.href = "data:plain/txt charset=utf-8," + data;
   a.click();
 }
-chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
+chrome.runtime.onMessage.addListener((message) => {
   const excludes = ['MyComputerCaree'];
   const networks = { 'AdLarge - NC': '', 'Compass - NC': '', 'Premiere - NC': '', 'Sun Broadcasting - NC': '', 'Westwood One - NC - Nectar': '' };
 
   let alertMsg = '';
   let carts = new Set();
   let iscis = new Set();
-  let records = msg.match(/\<Value\>.+\<\/Value\>/g);
   let spots = '';
-  let startDate = null;
+  let weekOf = null;
 
-  records.forEach((field, index) => {
-    field = field.replace(/\<Value\>/, '').replace(/\<\/Value\>/, '');
-    records[index] = field;
-  });
+  // Regular expression to match just the new spots for the week and
+  // create capturing groups for cart, network, copy name, isci and start
+  // date
+  const regex = /<Value>(.+)<\/Value>\n(?:.+\n){3}<Value>(.+)<\/Value>\n(?:.+\n){3}<Value>\+ (.+)<\/Value>\n(?:.+\n){15}<Value>(.+)<\/Value>\n(?:.+\n){7}<Value>(.+)<\/Value>/g
 
-  while (records.length) {
-    const cart = records.shift();
-    const network = records.shift();
-    let name = records.shift();
-    const expiration = records.shift();
-    const length = records.shift();
-    const isci = records.shift();
-    const date = new Date(records.shift());
-    const station = records.shift();
-
-    // A new spot has a +\s at the beginning of the name field
-    // If the spot is new, we want to produce it.  Otherwise, we
-    // can skip it.
-    if (name.startsWith('+')) {
-
-      // Strip leading +\s from name
-      name = name.replace(/\+\s/, '');
-
-      // If the current record's date is earlier than all
-      // previous dates, set startDate = date;
-      startDate = ((date < startDate) || startDate === null) ? date : startDate;
-
-      // Check if ISCI codes/cart numbers are used multiple times
-      if (iscis.has(isci)) {
-        alertMsg += 'Duplicate ISCI: ' + isci + '\n';
-      }
-      else {
-        iscis.add(isci);
-      }
-
-      if (carts.has(cart)) {
-        alertMsg += 'Duplicate Cart: ' + cart + '\n';
-      }
-      else {
-        carts.add(cart);
-      }
-
-      // Exclude spot if the name contains any of the strings found in excludes[]
-      if (!(excludes.some((exclude) => { return name.includes(exclude); }))) {
-        networks[network] += buildRivendellScript(cart, network, name, isci);
-        spots += '<tr><td>' + cart + '</td><td>' + network + '</td><td>' + name + '</td><td>' + isci + '</td></tr>';
-      }
+  for (const [match, cart, network, name, isci, date] of message.matchAll(regex)) {
+    if (!weekOf) {
+      let d = new Date(date);
+      d.setDate(d.getDate() - ((d.getDay()) ? (d.getDay() - 1) : 6));
+      weekOf = d.toLocaleDateString("en-US", { year: "numeric", month: "2-digit", day: "2-digit" });
     }
 
-    if (alertMsg) {
-      alert(alertMsg);
-      alertMsg = '';  // Clear the message so it isn't duplicated
+    // Check if ISCI codes/cart numbers are used multiple times
+    if (iscis.has(isci)) {
+      alertMsg += `Duplicate ISCI: ${isci}\n`;
+    } else {
+      iscis.add(isci);
+    }
+
+    if (carts.has(cart)) {
+      alertMsg += `Duplicate ISCI: ${cart}\n`;
+    } else {
+      carts.add(cart);
+    }
+
+    // Exclude spot if the name contains any of the strings found in excludes[]
+    if (!(excludes.some((exclude) => { return name.includes(exclude); }))) {
+      networks[network] += buildRivendellScript(cart, network, name, isci);
+      spots += `<tr><td>${cart}</td><td>${network}</td><td>${name}</td><td>${isci}</td></tr>`;
     }
   }
 
-  // set startDate to the date of the Monday of the week in which
-  // the new spots begin
-  startDate.setDate(startDate.getDate() - ((startDate.getDay()) ? (startDate.getDay() - 1) : 6));
+  if (alertMsg) {
+    alert(alertMsg);
+    alertMsg = '';  // Clear the message so it isn't duplicated
+  }
 
-  startDateString = startDate.toLocaleDateString("en-US", { year: "numeric", month: "2-digit", day: "2-digit" });
+  const [month, day, year] = weekOf.split("/");
 
-  const [month, day, year] = startDateString.split("/");
-
-  document.getElementById('week').append(startDateString);
+  document.getElementById('week').append(weekOf);
   document.getElementById('spots').innerHTML += spots;
 
   document.getElementById('download-link').addEventListener('click', () => {
