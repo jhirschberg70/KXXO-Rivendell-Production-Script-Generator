@@ -20,7 +20,7 @@ function download(data, fileName) {
   a.click();
 }
 chrome.runtime.onMessage.addListener((message) => {
-  const excludes = ['MyComputerCaree'];
+  const excludes = ['MyComputerCaree', 'NewsMax'];
   const networks = { 'AdLarge - NC': '', 'Compass - NC': '', 'Premiere - NC': '', 'Sun Broadcasting - NC': '', 'Westwood One - NC - Nectar': '' };
 
   let alertMsg = '';
