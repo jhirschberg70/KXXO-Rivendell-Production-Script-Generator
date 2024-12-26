@@ -21,7 +21,7 @@ function download(data, fileName) {
 }
 chrome.runtime.onMessage.addListener((message) => {
   const excludes = ['MyComputerCaree', 'NewsMax'];
-  const networks = { 'AdLarge - NC': '', 'Compass - NC': '', 'Premiere - NC': '', 'Sun Broadcasting - NC': '', 'Westwood One - NC - Nectar': '' };
+  const networks = { 'AdLarge - NC': '', 'Compass - NC': '', 'G Networks - NC': '', 'Premiere - NC': '', 'Sun Broadcasting - NC': '', 'Westwood One - NC - Nectar': '' };
 
   let alertMsg = '';
   let carts = new Set();
