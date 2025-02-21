@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CrystalReport xmlns="urn:crystal-reports:schemas:report-detail"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:crystal-reports:schemas:report-detail http://www.businessobjects.com/products/xml/CR2008Schema.xsd">
+<Group Level="1">
+<Group Level="2">
+<Group Level="3">
+<Group Level="4">
+<Group Level="5">
+<Group Level="6">
+<Group Level="7">
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>104433</FormattedValue><Value>104433</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  @@@@Econ Group@/Brux Night</FormattedValue><Value>  @@@@Econ Group@/Brux Night</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/26/2025</FormattedValue><Value>&gt; 02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_BXRA-6000-91</FormattedValue><Value>WW_BXRA-6000-91</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/03/2024</FormattedValue><Value>  01/03/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>104836</FormattedValue><Value>104836</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Premiere - NC</FormattedValue><Value>Premiere - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/Progressive.22</FormattedValue><Value>  Progressive Ins/Progressive.22</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>QRPI-0618-000</FormattedValue><Value>QRPI-0618-000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  05/02/2024</FormattedValue><Value>  05/02/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105068</FormattedValue><Value>105068</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Premiere - NC</FormattedValue><Value>Premiere - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Procter &amp; Gambl/P&amp;G/Downy U.1</FormattedValue><Value>  Procter &amp; Gambl/P&amp;G/Downy U.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>PGDY-0676-100</FormattedValue><Value>PGDY-0676-100</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  07/21/2024</FormattedValue><Value>  07/21/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105201</FormattedValue><Value>105201</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Premiere - NC</FormattedValue><Value>Premiere - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/Progressive.32</FormattedValue><Value>  Progressive Ins/Progressive.32</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>QRPI-0582-000</FormattedValue><Value>QRPI-0582-000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  09/11/2024</FormattedValue><Value>  09/11/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105225</FormattedValue><Value>105225</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  @@@@Econ Group@/Homes for o</FormattedValue><Value>  @@@@Econ Group@/Homes for o</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/25/2025</FormattedValue><Value>&gt; 02/25/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_HFT37460D-30</FormattedValue><Value>WW_HFT37460D-30</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  09/20/2024</FormattedValue><Value>  09/20/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105241</FormattedValue><Value>105241</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  @@@@Econ Group@/Easter Seal</FormattedValue><Value>  @@@@Econ Group@/Easter Seal</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_EASTS-37352A</FormattedValue><Value>WW_EASTS-37352A</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  09/27/2024</FormattedValue><Value>  09/27/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105369</FormattedValue><Value>105369</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Babbel/Language Learning.2</FormattedValue><Value>  Babbel/Language Learning.2</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_WTOYW30BABBL</FormattedValue><Value>WW_WTOYW30BABBL</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  11/12/2024</FormattedValue><Value>  11/12/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105376</FormattedValue><Value>105376</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  @@@@Econ Group@/Retirement .1</FormattedValue><Value>  @@@@Econ Group@/Retirement .1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/27/2025</FormattedValue><Value>&gt; 02/27/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_RETIREPAM-30</FormattedValue><Value>WW_RETIREPAM-30</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  11/17/2024</FormattedValue><Value>  11/17/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105400</FormattedValue><Value>105400</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Zealthy/Zealthy</FormattedValue><Value>  Zealthy/Zealthy</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_ZERA093-C197</FormattedValue><Value>WW_ZERA093-C197</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  12/01/2024</FormattedValue><Value>  12/01/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105417</FormattedValue><Value>105417</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Babbel/Language Learning.3</FormattedValue><Value>  Babbel/Language Learning.3</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_GLSV230BABEL</FormattedValue><Value>WW_GLSV230BABEL</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  11/30/2024</FormattedValue><Value>  11/30/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105420</FormattedValue><Value>105420</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Premiere - NC</FormattedValue><Value>Premiere - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Lesson Nine Gmb/Babbel.20</FormattedValue><Value>  Lesson Nine Gmb/Babbel.20</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>SMBA-GLSV230-BABBEL</FormattedValue><Value>SMBA-GLSV230-BABBEL</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  12/08/2024</FormattedValue><Value>  12/08/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105438</FormattedValue><Value>105438</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  @@@@Econ Group@/Foundation</FormattedValue><Value>  @@@@Econ Group@/Foundation</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_ZPFBR20303-0</FormattedValue><Value>WW_ZPFBR20303-0</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  12/11/2024</FormattedValue><Value>  12/11/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105474</FormattedValue><Value>105474</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  P&amp;G/Align P50 AA 104</FormattedValue><Value>  P&amp;G/Align P50 AA 104</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/26/2025</FormattedValue><Value>&gt; 02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_RADIIH24L600</FormattedValue><Value>WW_RADIIH24L600</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  12/30/2024</FormattedValue><Value>  12/30/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105476</FormattedValue><Value>105476</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  P&amp;G/Downy Rinse Refresh JFM</FormattedValue><Value>  P&amp;G/Downy Rinse Refresh JFM</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/01/2025</FormattedValue><Value>&gt; 03/01/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_PGDY09841000</FormattedValue><Value>WW_PGDY09841000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  12/30/2024</FormattedValue><Value>  12/30/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105480</FormattedValue><Value>105480</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  P&amp;G/Pure ZZZ JFM P50 NCW 62</FormattedValue><Value>  P&amp;G/Pure ZZZ JFM P50 NCW 62</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/28/2025</FormattedValue><Value>&gt; 02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_RADITSAC4220</FormattedValue><Value>WW_RADITSAC4220</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  12/31/2024</FormattedValue><Value>  12/31/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105482</FormattedValue><Value>105482</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  P&amp;G/Downy Unstoppables JFM</FormattedValue><Value>  P&amp;G/Downy Unstoppables JFM</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/25/2025</FormattedValue><Value>&gt; 02/25/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_PGDY06761000</FormattedValue><Value>WW_PGDY06761000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  12/31/2024</FormattedValue><Value>  12/31/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105485</FormattedValue><Value>105485</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  P&amp;G/Tide JFM P50 TB 26</FormattedValue><Value>  P&amp;G/Tide JFM P50 TB 26</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/28/2025</FormattedValue><Value>&gt; 02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_PGTX13741000</FormattedValue><Value>WW_PGTX13741000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/01/2025</FormattedValue><Value>  01/01/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105486</FormattedValue><Value>105486</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  @@@@Econ Group@/Wounded War</FormattedValue><Value>  @@@@Econ Group@/Wounded War</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/01/2025</FormattedValue><Value>&gt; 03/01/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_ZPLWOUN1G-30</FormattedValue><Value>WW_ZPLWOUN1G-30</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/02/2025</FormattedValue><Value>  01/02/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105497</FormattedValue><Value>105497</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Good RX/2025 Q1</FormattedValue><Value>  Good RX/2025 Q1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_GRXWIL122324</FormattedValue><Value>WW_GRXWIL122324</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/05/2025</FormattedValue><Value>  01/05/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105502</FormattedValue><Value>105502</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Proctor &amp; Gambl/Align Q1-Q2</FormattedValue><Value>  Proctor &amp; Gambl/Align Q1-Q2</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/27/2025</FormattedValue><Value>&gt; 02/27/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_RADIIH24L60</FormattedValue><Value>AU_RADIIH24L60</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  12/30/2024</FormattedValue><Value>  12/30/2024</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105518</FormattedValue><Value>105518</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Premiere - NC</FormattedValue><Value>Premiere - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Procter &amp; Gambl/P&amp;G/Tide.2</FormattedValue><Value>  Procter &amp; Gambl/P&amp;G/Tide.2</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>PGTX-1374-100</FormattedValue><Value>PGTX-1374-100</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/06/2025</FormattedValue><Value>  01/06/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105523</FormattedValue><Value>105523</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/2025 DA GM</FormattedValue><Value>  Progressive Ins/2025 DA GM</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/27/2025</FormattedValue><Value>&gt; 02/27/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_QRPI05820000</FormattedValue><Value>WW_QRPI05820000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/06/2025</FormattedValue><Value>  01/06/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105524</FormattedValue><Value>105524</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/2025 DA GM .1</FormattedValue><Value>  Progressive Ins/2025 DA GM .1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/01/2025</FormattedValue><Value>&gt; 03/01/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_QRPI05830000</FormattedValue><Value>WW_QRPI05830000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/06/2025</FormattedValue><Value>  01/06/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105535</FormattedValue><Value>105535</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Ebay/Q1 2025 GM 250k EBI-XC</FormattedValue><Value>  Ebay/Q1 2025 GM 250k EBI-XC</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/01/2025</FormattedValue><Value>&gt; 03/01/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_QEBY40680000</FormattedValue><Value>WW_QEBY40680000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/06/2025</FormattedValue><Value>  01/06/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105544</FormattedValue><Value>105544</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Wesley Financia/Wesley Fina.43</FormattedValue><Value>  Wesley Financia/Wesley Fina.43</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/27/2025</FormattedValue><Value>&gt; 02/27/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_WLEAD8951414</FormattedValue><Value>WW_WLEAD8951414</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/10/2025</FormattedValue><Value>  01/10/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105548</FormattedValue><Value>105548</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  P&amp;G/Febreze Fabric JFM P50</FormattedValue><Value>  P&amp;G/Febreze Fabric JFM P50</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/27/2025</FormattedValue><Value>&gt; 02/27/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_PGFG80880000</FormattedValue><Value>WW_PGFG80880000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/11/2025</FormattedValue><Value>  01/11/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105551</FormattedValue><Value>105551</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/Progressive</FormattedValue><Value>  Progressive Ins/Progressive</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/24/2025</FormattedValue><Value>&gt; 02/24/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_QRPI0645000</FormattedValue><Value>AU_QRPI0645000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/06/2025</FormattedValue><Value>  01/06/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105553</FormattedValue><Value>105553</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/Progressive.1</FormattedValue><Value>  Progressive Ins/Progressive.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/24/2025</FormattedValue><Value>&gt; 02/24/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_QRPI0642000</FormattedValue><Value>AU_QRPI0642000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/06/2025</FormattedValue><Value>  01/06/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105556</FormattedValue><Value>105556</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/Progressive.2</FormattedValue><Value>  Progressive Ins/Progressive.2</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/27/2025</FormattedValue><Value>&gt; 02/27/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_QRPI0640000</FormattedValue><Value>AU_QRPI0640000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/07/2025</FormattedValue><Value>  01/07/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105575</FormattedValue><Value>105575</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  P&amp;G/Sinex JFM P50 NCU 72</FormattedValue><Value>  P&amp;G/Sinex JFM P50 NCU 72</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/28/2025</FormattedValue><Value>&gt; 02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_RADIIH24L200</FormattedValue><Value>WW_RADIIH24L200</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/14/2025</FormattedValue><Value>  01/14/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105589</FormattedValue><Value>105589</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  TaxSlayer.com/2025 Bonus.1</FormattedValue><Value>  TaxSlayer.com/2025 Bonus.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_TSREFDTREE25</FormattedValue><Value>WW_TSREFDTREE25</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/15/2025</FormattedValue><Value>  01/15/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105592</FormattedValue><Value>105592</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/2025 DA GM .11</FormattedValue><Value>  Progressive Ins/2025 DA GM .11</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/24/2025</FormattedValue><Value>&gt; 02/24/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_QRPI06170000</FormattedValue><Value>WW_QRPI06170000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/19/2025</FormattedValue><Value>  01/19/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105609</FormattedValue><Value>105609</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Chase Bank/CJP2CBC27 Consum</FormattedValue><Value>  Chase Bank/CJP2CBC27 Consum</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_YCYM77820000</FormattedValue><Value>WW_YCYM77820000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/22/2025</FormattedValue><Value>  01/22/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105611</FormattedValue><Value>105611</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Pfizer Inc/Prevnar 30sUnbra</FormattedValue><Value>  Pfizer Inc/Prevnar 30sUnbra</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_PFPV40340000</FormattedValue><Value>WW_PFPV40340000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/23/2025</FormattedValue><Value>  01/23/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105621</FormattedValue><Value>105621</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/2025 DA GM .14</FormattedValue><Value>  Progressive Ins/2025 DA GM .14</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/28/2025</FormattedValue><Value>&gt; 02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_QRPI06190000</FormattedValue><Value>WW_QRPI06190000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/26/2025</FormattedValue><Value>  01/26/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105623</FormattedValue><Value>105623</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  JP Morgan Chase/Consumer Ba</FormattedValue><Value>  JP Morgan Chase/Consumer Ba</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/24/2025</FormattedValue><Value>&gt; 02/24/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_YCYM7782000</FormattedValue><Value>AU_YCYM7782000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/23/2025</FormattedValue><Value>  01/23/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105624</FormattedValue><Value>105624</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Premiere - NC</FormattedValue><Value>Premiere - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/Progressive.47</FormattedValue><Value>  Progressive Ins/Progressive.47</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>QRPI-0619-000</FormattedValue><Value>QRPI-0619-000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/28/2025</FormattedValue><Value>  01/28/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105626</FormattedValue><Value>105626</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Premiere - NC</FormattedValue><Value>Premiere - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/Progressive.48</FormattedValue><Value>  Progressive Ins/Progressive.48</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>QRPI-0617-000</FormattedValue><Value>QRPI-0617-000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/30/2025</FormattedValue><Value>  01/30/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105638</FormattedValue><Value>105638</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Proctor &amp; Gambl/FEBRZ CAR G</FormattedValue><Value>  Proctor &amp; Gambl/FEBRZ CAR G</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/26/2025</FormattedValue><Value>&gt; 02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_PGFG7908000</FormattedValue><Value>AU_PGFG7908000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/28/2025</FormattedValue><Value>  01/28/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105645</FormattedValue><Value>105645</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Hybrid Adv/Tax Relief Advoc</FormattedValue><Value>  Hybrid Adv/Tax Relief Advoc</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/28/2025</FormattedValue><Value>&gt; 02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_8004986548</FormattedValue><Value>AU_8004986548</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/31/2025</FormattedValue><Value>  01/31/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105646</FormattedValue><Value>105646</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Verizon/Straight Talk Q1 20.1</FormattedValue><Value>  Verizon/Straight Talk Q1 20.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_YVST02100000</FormattedValue><Value>WW_YVST02100000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  01/25/2025</FormattedValue><Value>  01/25/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105652</FormattedValue><Value>105652</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/2025 DA GM .15</FormattedValue><Value>  Progressive Ins/2025 DA GM .15</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/26/2025</FormattedValue><Value>&gt; 02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_QRPI06380000</FormattedValue><Value>WW_QRPI06380000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/03/2025</FormattedValue><Value>  02/03/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105653</FormattedValue><Value>105653</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Mattress Firm/Q1 2025 est 8</FormattedValue><Value>  Mattress Firm/Q1 2025 est 8</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/24/2025</FormattedValue><Value>&gt; 02/24/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_MFF24R067230</FormattedValue><Value>WW_MFF24R067230</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/06/2025</FormattedValue><Value>  02/06/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105655</FormattedValue><Value>105655</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  P&amp;G/Gain Laundry JFM P50 G4.1</FormattedValue><Value>  P&amp;G/Gain Laundry JFM P50 G4.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/01/2025</FormattedValue><Value>&gt; 03/01/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_RADIIH24WA00</FormattedValue><Value>WW_RADIIH24WA00</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/03/2025</FormattedValue><Value>  02/03/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105657</FormattedValue><Value>105657</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  P&amp;G/Febreze Air Effects JFM.1</FormattedValue><Value>  P&amp;G/Febreze Air Effects JFM.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/26/2025</FormattedValue><Value>&gt; 02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_PGFG83100000</FormattedValue><Value>WW_PGFG83100000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/04/2025</FormattedValue><Value>  02/04/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105660</FormattedValue><Value>105660</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Dell/Q1 CSB Convert DET CSB</FormattedValue><Value>  Dell/Q1 CSB Convert DET CSB</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_YDEB13240000</FormattedValue><Value>WW_YDEB13240000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/05/2025</FormattedValue><Value>  02/05/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105667</FormattedValue><Value>105667</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  P&amp;G/Swiffer Power Mop JFM P.2</FormattedValue><Value>  P&amp;G/Swiffer Power Mop JFM P.2</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/26/2025</FormattedValue><Value>&gt; 02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_RADIIH25S000</FormattedValue><Value>WW_RADIIH25S000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/07/2025</FormattedValue><Value>  02/07/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105672</FormattedValue><Value>105672</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  @@@@Econ Group@/ABC Mouse.1</FormattedValue><Value>  @@@@Econ Group@/ABC Mouse.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/28/2025</FormattedValue><Value>&gt; 02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_30MKTABC3215</FormattedValue><Value>WW_30MKTABC3215</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/09/2025</FormattedValue><Value>  02/09/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105673</FormattedValue><Value>105673</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Wesley Financia/Wesley Fina.44</FormattedValue><Value>  Wesley Financia/Wesley Fina.44</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/27/2025</FormattedValue><Value>&gt; 02/27/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_GFV2D3342266</FormattedValue><Value>WW_GFV2D3342266</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/06/2025</FormattedValue><Value>  02/06/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105676</FormattedValue><Value>105676</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Verizon Wireles/Straight Ta.1</FormattedValue><Value>  Verizon Wireles/Straight Ta.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/26/2025</FormattedValue><Value>&gt; 02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_YVST0210000</FormattedValue><Value>AU_YVST0210000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/03/2025</FormattedValue><Value>  02/03/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105680</FormattedValue><Value>105680</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Progressive Ins/Progressive.9</FormattedValue><Value>  Progressive Ins/Progressive.9</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/24/2025</FormattedValue><Value>&gt; 02/24/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_QRPI0644000</FormattedValue><Value>AU_QRPI0644000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/07/2025</FormattedValue><Value>  02/07/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105685</FormattedValue><Value>105685</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Lowes/2504 Pro 2025 - 62.8</FormattedValue><Value>  Lowes/2504 Pro 2025 - 62.8</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/26/2025</FormattedValue><Value>&gt; 02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_YOWG54390000</FormattedValue><Value>WW_YOWG54390000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/10/2025</FormattedValue><Value>  02/10/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105692</FormattedValue><Value>105692</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Select Quote/Rem February</FormattedValue><Value>  Select Quote/Rem February</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/28/2025</FormattedValue><Value>&gt; 02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_SQ-25NY-4040</FormattedValue><Value>WW_SQ-25NY-4040</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/14/2025</FormattedValue><Value>  02/14/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105693</FormattedValue><Value>105693</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Bank of America/Q1 2025  AB</FormattedValue><Value>  Bank of America/Q1 2025  AB</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/28/2025</FormattedValue><Value>&gt; 02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_BAAM30801000</FormattedValue><Value>WW_BAAM30801000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/10/2025</FormattedValue><Value>  02/10/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105704</FormattedValue><Value>105704</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Business Snapsh/Business Sn</FormattedValue><Value>  Business Snapsh/Business Sn</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/26/2025</FormattedValue><Value>&gt; 02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_LLMMS60</FormattedValue><Value>AU_LLMMS60</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/21/2025</FormattedValue><Value>  02/21/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105705</FormattedValue><Value>105705</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Premiere - NC</FormattedValue><Value>Premiere - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Procter &amp; Gambl/P&amp;G/Gain Fa.1</FormattedValue><Value>  Procter &amp; Gambl/P&amp;G/Gain Fa.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>PGGN-3509-000</FormattedValue><Value>PGGN-3509-000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/19/2025</FormattedValue><Value>  02/19/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105708</FormattedValue><Value>105708</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Premiere - NC</FormattedValue><Value>Premiere - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  GetUpside/Upside.com.3</FormattedValue><Value>  GetUpside/Upside.com.3</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>GUP0B63T071</FormattedValue><Value>GUP0B63T071</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/23/2025</FormattedValue><Value>  02/23/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105711</FormattedValue><Value>105711</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  USCAA Delta Def/Bonus 2025</FormattedValue><Value>  USCAA Delta Def/Bonus 2025</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/01/2025</FormattedValue><Value>&gt; 03/01/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_USCCA-021725</FormattedValue><Value>WW_USCCA-021725</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/17/2025</FormattedValue><Value>  02/17/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105717</FormattedValue><Value>105717</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  P&amp;G/Gain FE JFM P50 G41 22.1</FormattedValue><Value>  P&amp;G/Gain FE JFM P50 G41 22.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/01/2025</FormattedValue><Value>&gt; 03/01/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_PGGN35090000</FormattedValue><Value>WW_PGGN35090000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/18/2025</FormattedValue><Value>  02/18/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105720</FormattedValue><Value>105720</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  Nugenix/Male Testosterone.37</FormattedValue><Value>  Nugenix/Male Testosterone.37</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 03/02/2025</FormattedValue><Value>&gt; 03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_NGNX553-Y884</FormattedValue><Value>WW_NGNX553-Y884</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/19/2025</FormattedValue><Value>  02/19/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105724</FormattedValue><Value>105724</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>  T-Mobile/T Mobile A55 est 4.1</FormattedValue><Value>  T-Mobile/T Mobile A55 est 4.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>&gt; 02/25/2025</FormattedValue><Value>&gt; 02/25/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_TMST09220000</FormattedValue><Value>WW_TMST09220000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/19/2025</FormattedValue><Value>  02/19/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105725</FormattedValue><Value>105725</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Premiere - NC</FormattedValue><Value>Premiere - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ ZipRecruiter/ZipRecruiter *.12</FormattedValue><Value>+ ZipRecruiter/ZipRecruiter *.12</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/28/2025</FormattedValue><Value>  02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>SMZR-TIEB30-FREE</FormattedValue><Value>SMZR-TIEB30-FREE</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/26/2025</FormattedValue><Value>  02/26/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105726</FormattedValue><Value>105726</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Premiere - NC</FormattedValue><Value>Premiere - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ NortonLifelock/NortonLifelo</FormattedValue><Value>+ NortonLifelock/NortonLifelo</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  03/02/2025</FormattedValue><Value>  03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>RGEN-L319-TT-30</FormattedValue><Value>SMZR-TIEB30-FREE</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/28/2025</FormattedValue><Value>  02/28/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105726</FormattedValue><Value>105726</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ GoldCo/Bonus.2</FormattedValue><Value>+ GoldCo/Bonus.2</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  03/01/2025</FormattedValue><Value>  03/01/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_GOLDCO600224</FormattedValue><Value>WW_GOLDCO600224</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  03/01/2025</FormattedValue><Value>  03/01/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105728</FormattedValue><Value>105728</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Philo TV/Philo TV.7</FormattedValue><Value>+ Philo TV/Philo TV.7</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/28/2025</FormattedValue><Value>  02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_PHILOMB28-30</FormattedValue><Value>WW_PHILOMB28-30</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/24/2025</FormattedValue><Value>  02/24/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105729</FormattedValue><Value>105729</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ AT&amp;T/Q1 Cricket est 79992</FormattedValue><Value>+ AT&amp;T/Q1 Cricket est 79992</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  03/02/2025</FormattedValue><Value>  03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_QRIK12270000</FormattedValue><Value>WW_QRIK12270000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/24/2025</FormattedValue><Value>  02/24/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105730</FormattedValue><Value>105730</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Bayer/MiraLAX with GroupM P</FormattedValue><Value>+ Bayer/MiraLAX with GroupM P</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/26/2025</FormattedValue><Value>  02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_MIML51630000</FormattedValue><Value>WW_MIML51630000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/24/2025</FormattedValue><Value>  02/24/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105731</FormattedValue><Value>105731</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Home Depot/161 PRO Q1 2025</FormattedValue><Value>+ Home Depot/161 PRO Q1 2025</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  03/02/2025</FormattedValue><Value>  03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_YHTFD00RKD00</FormattedValue><Value>WW_YHTFD00RKD00</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/25/2025</FormattedValue><Value>  02/25/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105732</FormattedValue><Value>105732</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Bayer/MiraLAX with GroupM P.1</FormattedValue><Value>+ Bayer/MiraLAX with GroupM P.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/27/2025</FormattedValue><Value>  02/27/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_MIML51530000</FormattedValue><Value>WW_MIML51530000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/25/2025</FormattedValue><Value>  02/25/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105733</FormattedValue><Value>105733</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Vivint/Vivint.3</FormattedValue><Value>+ Vivint/Vivint.3</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/25/2025</FormattedValue><Value>  02/25/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_VIVINTFEM-60</FormattedValue><Value>WW_VIVINTFEM-60</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/25/2025</FormattedValue><Value>  02/25/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105734</FormattedValue><Value>105734</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Select Quote/Rem February.1</FormattedValue><Value>+ Select Quote/Rem February.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/28/2025</FormattedValue><Value>  02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_SQNBINL-2266</FormattedValue><Value>WW_SQNBINL-2266</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/26/2025</FormattedValue><Value>  02/26/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105735</FormattedValue><Value>105735</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Home Depot/161 PRO Q1 2025 .1</FormattedValue><Value>+ Home Depot/161 PRO Q1 2025 .1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  03/02/2025</FormattedValue><Value>  03/02/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_YHTFD00RLD00</FormattedValue><Value>WW_YHTFD00RLD00</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/27/2025</FormattedValue><Value>  02/27/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105736</FormattedValue><Value>105736</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ AT&amp;T/Q1 Cricket est 79992  .1</FormattedValue><Value>+ AT&amp;T/Q1 Cricket est 79992  .1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  03/01/2025</FormattedValue><Value>  03/01/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_QRIK12290000</FormattedValue><Value>WW_QRIK12290000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  03/01/2025</FormattedValue><Value>  03/01/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105737</FormattedValue><Value>105737</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ T-Mobile/T Mobile A18 - 60</FormattedValue><Value>+ T-Mobile/T Mobile A18 - 60</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/25/2025</FormattedValue><Value>  02/25/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_TMDC00870000</FormattedValue><Value>WW_TMDC00870000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/25/2025</FormattedValue><Value>  02/25/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105738</FormattedValue><Value>105738</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>Westwood One - NC - Nectar</FormattedValue><Value>Westwood One - NC - Nectar</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Bank of America/Q1 2025  AB.1</FormattedValue><Value>+ Bank of America/Q1 2025  AB.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/26/2025</FormattedValue><Value>  02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>WW_BAAM30811000</FormattedValue><Value>WW_BAAM30811000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/26/2025</FormattedValue><Value>  02/26/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105739</FormattedValue><Value>105739</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Proctor &amp; Gambl/GAIN FABRIC.1</FormattedValue><Value>+ Proctor &amp; Gambl/GAIN FABRIC.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/28/2025</FormattedValue><Value>  02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_PGGN3509000</FormattedValue><Value>AU_PGGN3509000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/24/2025</FormattedValue><Value>  02/24/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105740</FormattedValue><Value>105740</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Casual Precisio/RFA Cancell</FormattedValue><Value>+ Casual Precisio/RFA Cancell</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/26/2025</FormattedValue><Value>  02/26/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_RFAC5167</FormattedValue><Value>AU_RFAC5167</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/25/2025</FormattedValue><Value>  02/25/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105741</FormattedValue><Value>105741</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Business Snapsh/Business Sn.1</FormattedValue><Value>+ Business Snapsh/Business Sn.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/28/2025</FormattedValue><Value>  02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_LLMFI60</FormattedValue><Value>AU_PGGN3509000</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/27/2025</FormattedValue><Value>  02/27/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105742</FormattedValue><Value>105742</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Hybrid Adv/Debt Relief Advo.1</FormattedValue><Value>+ Hybrid Adv/Debt Relief Advo.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/28/2025</FormattedValue><Value>  02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>60</FormattedValue><Value>60</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_8005059257</FormattedValue><Value>AU_MYCO113023</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/28/2025</FormattedValue><Value>  02/28/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105743</FormattedValue><Value>105743</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Instinctive Med/My Computer</FormattedValue><Value>+ Instinctive Med/My Computer</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/27/2025</FormattedValue><Value>  02/27/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_MYCO113023</FormattedValue><Value>AU_MYCO113023</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/24/2025</FormattedValue><Value>  02/24/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+<Group Level="8">
+<Group Level="9">
+<Details Level="10">
+<Section SectionNumber="0">
+<Field Name="CartNum1" FieldName="{proc_GetAvailableCarts.CartNum}"><FormattedValue>105744</FormattedValue><Value>105744</Value></Field>
+<Field Name="sCustName1" FieldName="{proc_GetAvailableCarts.sCustName}"><FormattedValue>G Networks - NC</FormattedValue><Value>G Networks - NC</Value></Field>
+<Field Name="sName1" FieldName="{proc_GetAvailableCarts.CopyName}"><FormattedValue>+ Instinctive Med/My Computer.1</FormattedValue><Value>+ Instinctive Med/My Computer.1</Value></Field>
+<Field Name="dEndDate1" FieldName="{proc_GetAvailableCarts.dEndDate}"><FormattedValue>  02/28/2025</FormattedValue><Value>  02/28/2025</Value></Field>
+<Field Name="MultiAdvCartIndicator1" FieldName="{@MultiAdvCart_Indicator}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="nLength1" FieldName="{proc_GetAvailableCarts.nLength}"><FormattedValue>30</FormattedValue><Value>30</Value></Field>
+<Field Name="formISCIorTape1" FieldName="{@form_ISCIorTape}"><FormattedValue>AU_MYCO051623</FormattedValue><Value>AU_MYCO113023</Value></Field>
+<Field Name="SourceOrderNumber1" FieldName="{proc_GetAvailableCarts.SourceOrderNumber}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="dStartDate1" FieldName="{proc_GetAvailableCarts.dStartDate}"><FormattedValue>  02/28/2025</FormattedValue><Value>  02/28/2025</Value></Field>
+<Field Name="StationName1" FieldName="{proc_GetAvailableCarts.StationName}"><FormattedValue>KXXO-FM</FormattedValue><Value>KXXO-FM</Value></Field>
+<Field Name="sCoopName1" FieldName="{proc_GetAvailableCarts.sCoopName}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</Details>
+</Group>
+</Group>
+</Group>
+</Group>
+</Group>
+</Group>
+</Group>
+</Group>
+</Group>
+</CrystalReport>
