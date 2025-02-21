@@ -20,11 +20,13 @@ function download(data, fileName) {
   a.click();
 }
 chrome.runtime.onMessage.addListener((message) => {
-  const excludes = ['MyComputerCaree', 'NewsMax'];
+  const excludes = ['MyComputerCaree', 'NewsMax', 'Instinctive Med/My Computer'];
   const networks = { 'AdLarge - NC': '', 'Compass - NC': '', 'G Networks - NC': '', 'Premiere - NC': '', 'Sun Broadcasting - NC': '', 'Westwood One - NC - Nectar': '' };
 
   let alertMsg = '';
   let carts = new Set();
+  let duplicateCarts = new Set();
+  let duplicateIscis = new Set();
   let iscis = new Set();
   let spots = '';
   let weekOf = null;
@@ -43,13 +45,19 @@ chrome.runtime.onMessage.addListener((message) => {
 
     // Check if ISCI codes/cart numbers are used multiple times
     if (iscis.has(isci)) {
-      alertMsg += `Duplicate ISCI: ${isci}\n`;
+      if (!duplicateIscis.has(isci)) {
+        duplicateIscis.add(isci);
+        alertMsg += `Duplicate ISCI: ${isci}\n\n`;
+      }
     } else {
       iscis.add(isci);
     }
 
     if (carts.has(cart)) {
-      alertMsg += `Duplicate ISCI: ${cart}\n`;
+      if (!duplicateCarts.has(cart)) {
+        duplicateCarts.add(cart);
+        alertMsg += `Duplicate Cart: ${cart}\n\n`;
+      }
     } else {
       carts.add(cart);
     }
@@ -58,12 +66,13 @@ chrome.runtime.onMessage.addListener((message) => {
     if (!(excludes.some((exclude) => { return name.includes(exclude); }))) {
       networks[network] += buildRivendellScript(cart, network, name, isci);
       spots += `<tr><td>${cart}</td><td>${network}</td><td>${name}</td><td>${isci}</td></tr>`;
+    } else {
+      alertMsg += `Cart ${cart} ${network} ${name} ${isci} excluded from production\n\n`
     }
   }
 
   if (alertMsg) {
     alert(alertMsg);
-    alertMsg = '';  // Clear the message so it isn't duplicated
   }
 
   const [month, day, year] = weekOf.split("/");
