@@ -7,14 +7,14 @@ chrome.action.onClicked.addListener(async (tab) => {
 
 async function createMessage(tab) {
   return new Promise(async (resolve, reject) => {
-    const selectedText = await chrome.scripting.executeScript({
+    const xml = await chrome.scripting.executeScript({
       target: { tabId: tab.id },
       function: () => {
-        return getSelection().toString();
+        return document.querySelector("CrystalReport").innerHTML;
       }
     });
     
-    resolve(selectedText[0].result);
+    resolve(xml[0].result);
   });
 }
 
