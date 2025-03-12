@@ -10,7 +10,7 @@ async function createMessage(tab) {
     const xml = await chrome.scripting.executeScript({
       target: { tabId: tab.id },
       function: () => {
-        return document.querySelector("CrystalReport").innerHTML;
+        return getSelection().toString();
       }
     });
     
