@@ -34,8 +34,8 @@ chrome.runtime.onMessage.addListener((message) => {
   // Regular expression to match just the new spots for the week and
   // create capturing groups for cart, network, copy name, isci and start
   // date
-  const regex = /<Value>(.+)<\/Value>\n(?:.+\n){3}<Value>(.+)<\/Value>\n(?:.+\n){3}<Value>\+ (.+)<\/Value>\n(?:.+\n){15}<Value>(.+)<\/Value>\n(?:.+\n){7}<Value>(.+)<\/Value>/g
-  
+  const regex = /(?:(\d{6})(.+?))+?\+ (.+?)  \d{2}\/\d{2}\/\d{6}(.+?)  (\d{2}\/\d{2}\/\d{4})/g
+
   for (const [match, cart, network, name, isci, date] of message.matchAll(regex)) {
     if (!weekOf) {
       let d = new Date(date);

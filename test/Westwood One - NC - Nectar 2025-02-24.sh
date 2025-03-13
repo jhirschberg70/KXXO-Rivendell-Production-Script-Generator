@@ -16,9 +16,9 @@ rdimport --delete-cuts --clear-datetimes --clear-daypart-times --to-cart=105734 
 wait
 rdimport --delete-cuts --clear-datetimes --clear-daypart-times --to-cart=105735 --set-string-title="Westwood One - NC - Nectar" --set-string-client="Westwood One - NC - Nectar" --set-string-artist="Home Depot/161 PRO Q1 2025 .1" SPOTS *WW_YHTFD00RLD00* &
 wait
-rdimport --delete-cuts --clear-datetimes --clear-daypart-times --to-cart=105736 --set-string-title="Westwood One - NC - Nectar" --set-string-client="Westwood One - NC - Nectar" --set-string-artist="AT&T/Q1 Cricket est 79992 .1" SPOTS *WW_QRIK12290000* &
+rdimport --delete-cuts --clear-datetimes --clear-daypart-times --to-cart=105736 --set-string-title="Westwood One - NC - Nectar" --set-string-client="Westwood One - NC - Nectar" --set-string-artist="AT&T/Q1 Cricket est 79992  .1" SPOTS *WW_QRIK12290000* &
 wait
 rdimport --delete-cuts --clear-datetimes --clear-daypart-times --to-cart=105737 --set-string-title="Westwood One - NC - Nectar" --set-string-client="Westwood One - NC - Nectar" --set-string-artist="T-Mobile/T Mobile A18 - 60" SPOTS *WW_TMDC00870000* &
 wait
-rdimport --delete-cuts --clear-datetimes --clear-daypart-times --to-cart=105738 --set-string-title="Westwood One - NC - Nectar" --set-string-client="Westwood One - NC - Nectar" --set-string-artist="Bank of America/Q1 2025 AB.1" SPOTS *WW_BAAM30811000* &
+rdimport --delete-cuts --clear-datetimes --clear-daypart-times --to-cart=105738 --set-string-title="Westwood One - NC - Nectar" --set-string-client="Westwood One - NC - Nectar" --set-string-artist="Bank of America/Q1 2025  AB.1" SPOTS *WW_BAAM30811000* &
 wait

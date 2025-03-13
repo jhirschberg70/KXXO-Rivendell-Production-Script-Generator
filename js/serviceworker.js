@@ -10,7 +10,7 @@ async function createMessage(tab) {
     const xml = await chrome.scripting.executeScript({
       target: { tabId: tab.id },
       function: () => {
-        return getSelection().toString();
+        return Array.from(document.querySelectorAll("Value")).map((element) => { return element.textContent; }).join("");
       }
     });
     
